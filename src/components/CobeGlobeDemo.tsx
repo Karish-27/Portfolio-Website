@@ -1,7 +1,5 @@
 "use client"
 
-import React from "react";
-
 // No-op fallback component. Kept in the repo to avoid accidental imports
 // causing Vite to analyze a missing package. Use `SimpleGlobe` instead.
 export default function CobeGlobeDemo() {
