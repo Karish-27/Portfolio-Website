@@ -33,7 +33,7 @@ const projects = [
     category: "Portfolio Website",
     tools: "React, TypeScript, Tailwind CSS, React Three, Three, Shader Gradient",
     image: "/images/portfolio.png",
-    link: "https://dashboard-theta-five-49.vercel.app/dashboard/home", // Replace with your actual project link
+    link: "https://portfolio-website-tajs.vercel.app/", // Replace with your actual project link
   },
 ];
 

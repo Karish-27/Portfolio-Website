@@ -475,8 +475,8 @@ class Y extends MeshPhysicalMaterial {
 }
 
 const XConfig = {
-  count: 200,
-  colors: [0, 0, 0],
+  count: 10,
+  colors: [0x7F40FF, 0xffffff],
   ambientColor: 0xffffff,
   ambientIntensity: 1,
   lightIntensity: 200,

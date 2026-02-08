@@ -1,19 +1,23 @@
 .about-section {
   display: flex;
-  align-items: center;
-  justify-content: left;
-  place-items: center;
+  /* align-items: center; */
+  /* justify-content: flex-start; */
+  /* place-items: center; */
   position: relative;
   opacity: 1;
   height: auto;
-  width: var(--cWidth);
-  margin: auto;
+  width: 100vw;
+  margin-left: calc((100% - 100vw) / 2);
+  margin-right: calc((100% - 100vw) / 2);
+  padding: 0;
 }
 .about-me {
-  padding: 50px 0px;
-  padding-bottom: 0;
-  width: 500px;
-  max-width: calc(100% - 15px);
+  padding-left:  60px;
+  padding-right: 60px;
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 100%;
 }
 .about-me h3 {
   font-size: 25px;
@@ -28,6 +32,7 @@
   font-weight: 600;
   line-height: 36px;
   letter-spacing: 1px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -37,8 +42,8 @@
 }
 @media only screen and (min-width: 768px) {
   .about-me {
-    width: 500px;
-    max-width: calc(100% - 70px);
+    width: 100%;
+    max-width: 100%;
     transform: translateY(0%);
   }
   .about-section {
@@ -47,19 +52,19 @@
 }
 @media only screen and (min-width: 1025px) {
   .about-section {
-    width: var(--cWidth);
-    justify-content: right;
-    max-width: 1920px;
+    width: 100%;
+    /* justify-content: center; */
+    max-width: 100%;
     /* avoid forcing a full viewport height which creates extra spacing
        below the hero; allow content to size naturally and add a modest
        top padding so the section isn't flush against the previous one */
     height: auto;
-    padding-top: 48px;
+    padding: 0;
     opacity: 1;
   }
   .about-me {
-    padding: 0px;
-    width: 50%;
+    padding: 0 80px;
+    width: 100%;
   }
   .about-me p {
     font-size: 1.9vw;
