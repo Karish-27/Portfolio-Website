@@ -66,12 +66,12 @@ const SocialIcons = () => {
         </span>
         
       </div>
-      <a className="resume-button" href="#">
+      {/* <a className="resume-button" href="#">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />
         </span>
-      </a>
+      </a> */}
     </div>
   );
 };

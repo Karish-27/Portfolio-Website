@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 
+@font-face {
+  font-family: 'NavillemBd';
+  src: url('https://fonts.cdnfonts.com/s/96657/NavillemBd.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Navill';
+  src: url('https://fonts.cdnfonts.com/s/96657/Navill.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
