@@ -43,7 +43,11 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          Logo
+          <img
+            src="/images/Karishma-Logo.svg"
+            alt="Karishma Logo"
+            style={{ height: '40px', width: 'auto', display: 'block' }}
+          />
         </a>
         <a
           href="/#"
